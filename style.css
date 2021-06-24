@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  align-content: center;
+  margin-top: 10rem;
+  font-family: monospace;
+}
+
+hr {
+  color: red;
+  max-width: 50%;
+}
+
+h1 {
+  color: gold;
+  margin-bottom: 2rem;
+}
+
+button {
+  margin: 0.75rem;
+  background-color: rgb(34, 34, 255);
+  color: aliceblue;
+  border-color: rgb(34, 34, 255);
+  border-radius: 7px;
+  font-size: medium;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 165);
+  border-color: rgb(0, 0, 165);
+}
+
+input {
+  border-radius: 7px;
+  padding: 0.5rem;
+  background-color:whitesmoke;
+}
+
+/* To refer to a class use a period (.) before the class name */
+.success {
+  color: rgb(0, 255, 0);
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.alert {
+  color: red;
+  font-size: x-large;
+  font-weight: bolder;
+}
